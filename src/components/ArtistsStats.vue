@@ -1,3 +1,6 @@
+// TracksStats and ArtistsStats are basically the same but the response objects are different.
+// I Tried making a single component and used v-if's to determine what to display for the different objects but that was even messier.
+
 <template>
   <div>
     <div
