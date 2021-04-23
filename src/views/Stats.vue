@@ -9,6 +9,7 @@
       </div>
 
       <div class="category-wrapper flex-row" :class="type">
+      <!-- Really ugly but works (: -->
         <router-link
           tag="button"
           :to="{ name: 'Stats', params: { type: 'artists', time: time } }"
@@ -23,6 +24,7 @@
 
       <div class="info-wrapper" :class="time">
         <div class="time-wrapper flex-row">
+        <!-- Really ugly but works (: -->
           <router-link
             tag="button"
             :to="{ name: 'Stats', params: { type: type, time: 'short' } }"
