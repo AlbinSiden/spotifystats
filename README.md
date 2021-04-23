@@ -1,6 +1,6 @@
 # Spotify Stats 
 
-## Install all node modules
+### Install all node modules
 ```
 npm install
 ```
